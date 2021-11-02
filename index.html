@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bank Account</title>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="jumbotron">
+      <h1>The Data Bank</h1>
+    </div>
+    <form id="mainForm">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title">Register a new account:</h2>
+              <ul class="card-text">
+                Name:
+                <input class="name" type="text"></input>
+              </ul>
+              <ul class="card-text">
+                Initial Deposit:
+                <input class="deposit" type="number"></input>
+              </ul>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title">Deposits or Withdrawals:</h2>
+              <ul class="card-text">
+                Deposit Amount:
+                <input class="deposit" type="number"></input>
+              </ul>
+              <ul class="card-text">
+                Withdrawal Amount:
+                <input class="withdrawal" type="number"></input>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="btn-dark">push button</button>
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title">Current Balance:</h2>
+            <ul class="card-text">
+              
+            </ul>
+          </div>
+        </div>
+      </div> 
+    </form>
+  </div>
+  <div id="results">
+
+  </div>
+  
+</body>
+</html>
